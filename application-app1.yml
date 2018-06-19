@@ -1,3 +1,4 @@
 ---
 info:
-  name: app1
+  app:
+    name: Spring Sample Application - App1
