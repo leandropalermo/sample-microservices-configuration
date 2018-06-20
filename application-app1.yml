@@ -1,6 +1,9 @@
 ---
-server:
-  port: 8088
 info:
   app:
     name: Spring Sample Application - App1
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ['*']
