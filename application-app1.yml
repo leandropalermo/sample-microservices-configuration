@@ -1,7 +1,13 @@
 ---
+server:
+  contextPath: /app1
+app:
+  information:
+    name: APP1
+    description: Simple API to demonstrate how to create a simple spring cloud project
 info:
   app:
-    name: Spring Sample Application - App1
+    name: ${spring.application.name}
 management:
   endpoints:
     web:
