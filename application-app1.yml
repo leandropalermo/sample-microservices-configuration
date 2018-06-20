@@ -1,6 +1,4 @@
 ---
-server:
-  contextPath: /app1
 app:
   information:
     name: APP1
